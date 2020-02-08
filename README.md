@@ -27,7 +27,7 @@ _This file contains ideas and workplans of The ADV tool._
 
 1. **Import API**
   
-   _Basic import api. Gets the desired data through an UI. Places under S3 or other secure data storage._ 
+   _Basic import api. Gets the desired data through an UI. On production, places files under S3 or other secure data storage._ 
 2. **Input analysing**  
    1. **File format checker**  
      
@@ -35,7 +35,7 @@ _This file contains ideas and workplans of The ADV tool._
    2. **File content checker**  
       1. **File datatypes checking**  
         
-          _Checks possible problems and erros about data. Outputs go or no go for entire process._
+          _Checks possible problems and erros about data. Outputs can be: go or no go for entire process._
       2. **Language analysis & defining categorical values**  
         
           _NLP tools decide whether data is hierarhical or checks the context. #Cont. improvement._
@@ -67,7 +67,7 @@ _This file contains ideas and workplans of The ADV tool._
 - [x] **Import API** 
 - [ ] **Input Analyse Algorithm**
     - [ ] **Input Analyse Algorithm - Research & Design**
-    - [ ] **Input Analyse Algorithm - File Format Checker** 
+    - [x] **Input Analyse Algorithm - File Format Check (Done at import api)** 
     - [ ] **Input Analyse Algorithm - File Datatype Checker**
     - [ ] **Input Analyse Algorithm - Language Analysis Model Build for EN**
     - [ ] **Input Analyse Algorithm - Language Analysis Model Build for TR**
