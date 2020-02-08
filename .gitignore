@@ -132,3 +132,7 @@ dmypy.json
 # Mac-os Ds Store File
 .DS_Store
 *.DS_Store
+
+# Idea files
+.idea
+*.idea
