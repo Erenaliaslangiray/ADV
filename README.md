@@ -64,7 +64,7 @@ _This file contains ideas and workplans of The ADV tool._
 ### **TO-DO's:**  
 *List of unordered tasks that needs to be done.*
 
-- [ ] **Import API (With Swagger)** 
+- [x] **Import API** 
 - [ ] **Input Analyse Algorithm**
     - [ ] **Input Analyse Algorithm - Research & Design**
     - [ ] **Input Analyse Algorithm - File Format Checker** 

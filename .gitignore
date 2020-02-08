@@ -76,6 +76,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb_checkpoints
 
 # IPython
 profile_default/
@@ -128,5 +129,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Macos Ds Store File
+# Mac-os Ds Store File
+.DS_Store
 *.DS_Store
