@@ -27,7 +27,7 @@ _This file contains ideas and workplans of The ADV tool._
 
 1. **Import API**
   
-   _Basic import api. Gets the desired data through an UI. Places under S3 or other secure data storage._ 
+   _Basic import api. Gets the desired data through an UI. On production, places files under S3 or other secure data storage._ 
 2. **Input analysing**  
    1. **File format checker**  
      
@@ -35,7 +35,7 @@ _This file contains ideas and workplans of The ADV tool._
    2. **File content checker**  
       1. **File datatypes checking**  
         
-          _Checks possible problems and erros about data. Outputs go or no go for entire process._
+          _Checks possible problems and erros about data. Outputs can be: go or no go for entire process._
       2. **Language analysis & defining categorical values**  
         
           _NLP tools decide whether data is hierarhical or checks the context. #Cont. improvement._
@@ -64,10 +64,10 @@ _This file contains ideas and workplans of The ADV tool._
 ### **TO-DO's:**  
 *List of unordered tasks that needs to be done.*
 
-- [ ] **Import API (With Swagger)** 
+- [x] **Import API** 
 - [ ] **Input Analyse Algorithm**
     - [ ] **Input Analyse Algorithm - Research & Design**
-    - [ ] **Input Analyse Algorithm - File Format Checker** 
+    - [x] **Input Analyse Algorithm - File Format Check (Done at import api)** 
     - [ ] **Input Analyse Algorithm - File Datatype Checker**
     - [ ] **Input Analyse Algorithm - Language Analysis Model Build for EN**
     - [ ] **Input Analyse Algorithm - Language Analysis Model Build for TR**
@@ -75,7 +75,7 @@ _This file contains ideas and workplans of The ADV tool._
     - [ ] **Input Analyse Algorithm - Language Analysis - Process String Input Data**
     - [ ] **Input Analyse Algorithm - Numeric Input Analyse & Calculation**
 - [ ] **Metadata Generator**
-- [ ] **Export API (With Swagger)**
+- [ ] **Export API**
 - [ ] **Plot Deciding Model Development**
     - [ ] **Plot Deciding Model Development - Research & Design**
     - [ ] **Plot Deciding Model Development - Data Finding**
@@ -94,11 +94,8 @@ _This file contains ideas and workplans of The ADV tool._
     - [ ] **Dockerize - Convert to Microservice Architecture**
     - [ ] **Dockerize - Dockerfile Configuration for Each Microservice**
     - [ ] **Dockerize - Docker-Compose Configuration**
-- [ ] **DWH Establish**
-    - [ ] **DWH Establish - Building The DB Structure**
-    - [ ] **DWH Establish - Building The ETL Structure**
 - [ ] **Log Module Implementation**
-- [ ] **Git Repo Design & Structure**
+- [x] **Git Repo Design & Structure**
 - [ ] **S3 Bucket Configuration**
 - [ ] **Cloud DevOps - Research & Design**
 - [ ] **Proof of Concept**
