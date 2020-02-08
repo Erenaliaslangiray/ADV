@@ -136,3 +136,5 @@ dmypy.json
 # Idea files
 .idea
 *.idea
+idea.ipynb
+*idea.ipynb
