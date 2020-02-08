@@ -75,7 +75,7 @@ _This file contains ideas and workplans of The ADV tool._
     - [ ] **Input Analyse Algorithm - Language Analysis - Process String Input Data**
     - [ ] **Input Analyse Algorithm - Numeric Input Analyse & Calculation**
 - [ ] **Metadata Generator**
-- [ ] **Export API (With Swagger)**
+- [ ] **Export API**
 - [ ] **Plot Deciding Model Development**
     - [ ] **Plot Deciding Model Development - Research & Design**
     - [ ] **Plot Deciding Model Development - Data Finding**
@@ -94,11 +94,8 @@ _This file contains ideas and workplans of The ADV tool._
     - [ ] **Dockerize - Convert to Microservice Architecture**
     - [ ] **Dockerize - Dockerfile Configuration for Each Microservice**
     - [ ] **Dockerize - Docker-Compose Configuration**
-- [ ] **DWH Establish**
-    - [ ] **DWH Establish - Building The DB Structure**
-    - [ ] **DWH Establish - Building The ETL Structure**
 - [ ] **Log Module Implementation**
-- [ ] **Git Repo Design & Structure**
+- [x] **Git Repo Design & Structure**
 - [ ] **S3 Bucket Configuration**
 - [ ] **Cloud DevOps - Research & Design**
 - [ ] **Proof of Concept**
